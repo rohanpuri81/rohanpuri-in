@@ -1,10 +1,12 @@
 import "./App.css";
-import Profile from "./PortfolioContainer/Home/Profile";
+import Home from "./PortfolioContainer/Home/Home";
+import PortfoiloContainer from "./PortfolioContainer/PortfoiloContainer";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Profile />
+      <PortfoiloContainer />
     </div>
   );
 }
